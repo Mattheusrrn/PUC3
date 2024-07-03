@@ -1,5 +1,5 @@
 # PUC3
-#1.0 Objetivo
+# 1.0 Objetivo
 
 Avaliar o desempenho de cada time ao longo das temporadas.
 Identificar quais times têm melhor performance em casa (home_team) e fora de casa (away_team).
