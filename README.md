@@ -12,4 +12,4 @@ Desempenho de Campeões Anteriores: Os campeões de temporadas anteriores conseg
 
 Impacto do Fator Estadual: O desempenho das equipes é influenciado pelo estado de origem? Times de determinados estados têm vantagens ou desvantagens específicas?
 
-Este estudo pretende oferecer uma visão abrangente e detalhada sobre como esses fatores interagem e influenciam os resultados das equipes no Brasileirão, utilizando dados estatísticos e modelos preditivos para apoiar as conclusões
+Este estudo pretende oferecer uma visão abrangente e detalhada sobre como esses fatores interagem e influenciam os resultados das equipes no Brasileirão, utilizando dados estatísticos para apoiar as conclusões
