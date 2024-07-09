@@ -1,26 +1,15 @@
-# PUC3
+# Brasileirão Analytics
 # 1.0 Objetivo
+O objetivo deste trabalho é analisar fatores e variáveis que podem influenciar o desempenho das equipes no Brasileirão. Através de análises, diversas perguntas pertinentes ao desempenho dos clubes serão melhor entendidas:
 
-Avaliar o desempenho de cada time ao longo das temporadas.
-Identificar quais times têm melhor performance em casa (home_team) e fora de casa (away_team).
-Comparar o número de gols marcados em casa (home_goal) e fora de casa (away_goal).
-Tendências Temporais:
+Desempenho Fora de Casa: O desempenho do clube jogando fora de casa pode ser um determinante para a conquista do campeonato?
 
-Analisar a evolução do desempenho dos times ao longo das diferentes temporadas (season).
-Verificar se há padrões de desempenho específicos em determinadas rodadas (round).
-Análise Regional:
+Desempenho em Casa: O desempenho dentro de casa tem um impacto significativo na conquista do campeonato?
 
-Examinar o desempenho dos times de diferentes estados (home_team_state e away_team_state).
-Comparar o desempenho de times de estados específicos ao longo dos anos.
-Predição e Modelagem:
+Rebaixamento: O mau desempenho do clube em jogos fora de casa pode ser um fator determinante para o rebaixamento? E o desempenho em jogos em casa?
 
-Utilizar dados históricos para criar modelos de predição de resultados futuros.
-Aplicar técnicas de machine learning para prever resultados de partidas futuras com base em padrões históricos.
-Análise de Partidas Específicas:
+Desempenho de Campeões Anteriores: Os campeões de temporadas anteriores conseguem manter o alto nível de desempenho no ano seguinte, ou geralmente apresentam uma queda significativa?
 
-Estudar partidas específicas para identificar fatores que contribuíram para vitórias ou derrotas.
-Analisar clássicos regionais e identificar padrões em confrontos diretos entre times específicos.
-Identificação de Fatores de Sucesso:
+Impacto do Fator Estadual: O desempenho das equipes é influenciado pelo estado de origem? Times de determinados estados têm vantagens ou desvantagens específicas?
 
-Determinar quais fatores (por exemplo, jogar em casa, estado do time) têm maior influência no resultado de uma partida.
-Avaliar a importância de ter um bom desempenho em casa versus fora de casa.
+Este estudo pretende oferecer uma visão abrangente e detalhada sobre como esses fatores interagem e influenciam os resultados das equipes no Brasileirão, utilizando dados estatísticos e modelos preditivos para apoiar as conclusões
