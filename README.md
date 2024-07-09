@@ -36,3 +36,5 @@ Como é apenas 1 arquivo, então não houve necessidade de uma descrição compl
 # 4.0 Modelagem
 O upload feito diretamente no Databricks através do DBFS.
 ![image](253181e3-70f7-469a-8e87-2f8334d9106d.jfif)
+![image](carga.PNG)
+
