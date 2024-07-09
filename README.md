@@ -16,6 +16,20 @@ Este estudo pretende oferecer uma visão abrangente e detalhada sobre como esses
 # 2.0 Coleta
 
 A coleta foi feita no site da kaggle: https://www.kaggle.com/datasets/ricardomattos05/jogos-do-campeonato-brasileiro
+E o upload feito diretamente no Databricks através do DBFS.
 ![image](253181e3-70f7-469a-8e87-2f8334d9106d.jfif)
+
+# 3.0 Modelagem
+|Atributos | Descrição |
+|----------|-----------|
+|datetime | Data e horário do jogo: 2012-06-06 20:30:00 - 2022-11-13 16:00:00 |
+|home_team|	Clube mandante |
+|home_team_state | Estado do Clube |
+|away_team | Clube visitante |
+|away_team_state | Estado |
+|home_goal | Quantos Gols o mandante fez: 0-6 gols |
+|away_goal|	Quantos Gols o visitante fez: 0-6 gols |
+|season | Temporada 2012-2022 |
+|round| Rodada 1-38 |
 
 
