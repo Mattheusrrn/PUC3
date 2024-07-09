@@ -16,6 +16,6 @@ Este estudo pretende oferecer uma visão abrangente e detalhada sobre como esses
 # 2.0 Coleta
 
 A coleta foi feita no site da kaggle: https://www.kaggle.com/datasets/ricardomattos05/jogos-do-campeonato-brasileiro
-!image(https://raw.githubusercontent.com/Mattheusrrn/PUC3/main/253181e3-70f7-469a-8e87-2f8334d9106d.jfif)
+![image](253181e3-70f7-469a-8e87-2f8334d9106d.jfif)
 
 
