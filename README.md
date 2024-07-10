@@ -1,5 +1,5 @@
 # Brasileirão Analytics
-![image]([253181e3-70f7-469a-8e87-2f8334d9106d.jfif](https://a4.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F85.png))
+![image](https://a4.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F85.png))
 
 # 1.0 Objetivo
 O objetivo deste trabalho é analisar fatores e variáveis que podem influenciar o desempenho das equipes no Brasileirão. Através de análises, diversas perguntas pertinentes ao desempenho dos clubes serão melhor entendidas:
