@@ -44,4 +44,20 @@ Foi necessário a criação de uma tabela temporária no DataBricks mostrando a 
 ![image](tabelacla.PNG)
 
 # 5.0 Análises
+ 5.1 Quais Clubes são mais consistentes nesse recorte do Brasileirão? Quais clubes participaram de todas as edições?
+Pela tabela mostrada, vemos que o Atlético Mineiro se mostrou o clube mais consistente tanto na pontuação geral quanto na média de pontuação. Além disso, juntamente com poucos clubes, foi o clube que mais participou nesse recorte do Dataset.
+
+5.2 Quais estados desempenham melhor no campeonato?
+Vemos uma predominância maior dos estados do Sudeste nas conquistas dos Brasileirões, com destaque para o Estado de São Paulo com mais títulos e para MG com a maior média de pontos dentro dos Estados.
+
+5.3 Os times que mais venceram fora de casa costuma ser campeões?
+Por essa análise observamos que SIM, nessa amostra de brasileirões, o time que tem a melhor campanha como visitante também é campeão.
+
+5.4 Os times que mais venceram dentro de casa costuma ser campeões?
+Por essa análise observamos que grande parte dos times que tem a melhor campanha como mandante também são campeões. No entanto, não se mostrou uma variável tão importante como a campanha como visitante pois, cerca de 63% dos campeões nesse período tiveram a melhor campanha como mandante enquanto que no caso dos visitantes, chega nos 100%.
+
+5.5 Como os campeões desempenham no ano seguinte?
+Vemos que apenas 20% das vezes, que foi possível avaliar o desempenho dos campeões no ano seguinte,  o campeão repetiu o feito no ano seguinte. Em alguns casos o desempenho piora de forma considerável.
+
+5.6 Desempenho no 2 turno é determinante para a conquista de título?
 
