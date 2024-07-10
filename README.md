@@ -1,4 +1,6 @@
 # Brasileirão Analytics
+![image]([253181e3-70f7-469a-8e87-2f8334d9106d.jfif](https://a4.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F85.png))
+
 # 1.0 Objetivo
 O objetivo deste trabalho é analisar fatores e variáveis que podem influenciar o desempenho das equipes no Brasileirão. Através de análises, diversas perguntas pertinentes ao desempenho dos clubes serão melhor entendidas:
 
@@ -36,6 +38,10 @@ Como é apenas 1 arquivo, então não houve necessidade de uma descrição compl
 # 4.0 Modelagem
 O upload feito diretamente no Databricks através do DBFS.
 ![image](253181e3-70f7-469a-8e87-2f8334d9106d.jfif)
+Tabela raw carregada no DataBricks usando pyspark e usando Valores NA que estão nas colunas de gols como 0 para que o resultado final não seja influenciado. Provavelmente a tabela foi criada antes do fim do Brasileiro 2022.
 ![image](carga.PNG)
+Foi necessário a criação de uma tabela temporária no DataBricks mostrando a classificação final do campeonato por ano para que algumas análises fossem possíveis.
 ![image](tabelacla.PNG)
+
+# 5.0 Análises
 
