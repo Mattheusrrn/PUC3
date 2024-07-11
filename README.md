@@ -49,6 +49,7 @@ Foi necessário a criação de uma tabela temporária no DataBricks mostrando a 
 
 Pela tabela mostrada, vemos que o Atlético Mineiro se mostrou o clube mais consistente tanto na pontuação geral quanto na média de pontuação. 
 Além disso, juntamente com poucos clubes, foi o clube que mais participou nesse recorte do Dataset.
+
 ![image](Gráficos1.PNG)
 
 
@@ -56,6 +57,7 @@ Além disso, juntamente com poucos clubes, foi o clube que mais participou nesse
 
 Vemos uma predominância maior dos estados do Sudeste nas conquistas dos Brasileirões, com destaque para o Estado de São Paulo com mais títulos e para MG com a maior média de pontos dentro dos Estados. 
 Estados sem títulos apresentam uma maior variabilidade nas médias de classificação, com alguns estados próximos às médias dos estados campeões (como RS e PR) e outros com médias significativamente mais baixas (como AL e SC).
+
 
 ![image](Gráficoestadual.PNG)
 
@@ -65,6 +67,7 @@ Estados sem títulos apresentam uma maior variabilidade nas médias de classific
 Por essa análise observamos que SIM, nessa amostra de brasileirões, o time que tem a melhor campanha como visitante também é campeão. 100% dos campeões analisados tiveram a melhor campanha como visitantes. 
 Isso sugere que o desempenho fora de casa é um fator crucial para a conquista do título.
 
+
 ![image](classvisitante.PNG)
 
 
@@ -72,6 +75,7 @@ Isso sugere que o desempenho fora de casa é um fator crucial para a conquista d
 
 Por essa análise observamos que grande parte dos times que tem a melhor campanha como mandante também são campeões. 
 No entanto, não se mostrou uma variável tão importante como a campanha como visitante pois, cerca de 63% dos campeões nesse período tiveram a melhor campanha como mandante enquanto que no caso dos visitantes, chega nos 100%.
+
 
 ![image](class_mandante.PNG)
 
@@ -83,6 +87,7 @@ Vemos que apenas 20% das vezes, que foi possível avaliar o desempenho dos campe
 Em média, os times campeões do Brasileirão tendem a ter uma queda no desempenho no ano seguinte, caindo cerca de 5 posições na tabela.Há exceções notáveis, como o Cruzeiro em 2014 e o Flamengo em 2020, que mantiveram uma alta classificação (1º e 2º lugares, respectivamente). 
 Alguns campeões, como o Fluminense em 2013 (16º lugar) e o Corinthians em 2018 (13º lugar), tiveram uma queda mais acentuada no desempenho no ano seguinte.Embora alguns campeões consigam manter um alto desempenho, em média, há uma tendência de queda significativa na classificação no ano seguinte ao título
 
+
 ![image](class_anoaseguinte.PNG)
 
 
@@ -91,5 +96,6 @@ Alguns campeões, como o Fluminense em 2013 (16º lugar) e o Corinthians em 2018
 Muitos campeões (como o Cruzeiro em 2013, Corinthians em 2015, Palmeiras em 2016, 2018 e 2022, Flamengo em 2019 e 2021, e Atlético-MG em 2021) mantiveram uma alta posição tanto na classificação geral quanto na classificação do segundo turno.Algumas exceções incluem o Fluminense em 2012 e o Flamengo em 2020, que não terminaram o segundo turno como líderes, mas ainda assim conquistaram o título geral. 
 A maior exceção é o Corinthians em 2017, que teve um desempenho significativamente pior no segundo turno (11º lugar) mas ainda conquistou o título. Um bom desempenho no segundo turno geralmente contribui significativamente para a conquista do título, mas não é um fator absolutamente determinante. 
 Existem exceções onde o clube não foi o melhor no segundo turno, mas ainda assim conseguiu ganhar o campeonato. 
+
 
 ![image](class_2turno.PNG)
