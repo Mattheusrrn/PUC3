@@ -59,6 +59,8 @@ Além disso, juntamente com poucos clubes, foi o clube que mais participou nesse
 
 ![image](Gráficos1.PNG)
 
+![image](tabelasclubes.PNG)
+
 
 5.2 Quais estados desempenham melhor no campeonato?
 
@@ -67,6 +69,8 @@ Estados sem títulos apresentam uma maior variabilidade nas médias de classific
 
 
 ![image](Gráficoestadual.PNG)
+
+![image](tabelastitulos.PNG)
 
 
 5.3 Os times que mais venceram fora de casa costuma ser campeões?
