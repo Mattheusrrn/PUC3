@@ -35,7 +35,7 @@ A coleta foi feita no site da kaggle: https://www.kaggle.com/datasets/ricardomat
 
 Como é apenas 1 arquivo, então não houve necessidade de uma descrição complexa da modelagem.
 
-# 4.0 Modelagem
+# 4.0 Carga
 O upload feito diretamente no Databricks através do DBFS.
 ![image](253181e3-70f7-469a-8e87-2f8334d9106d.jfif)
 Tabela raw carregada no DataBricks usando pyspark e usando Valores NA que estão nas colunas de gols como 0 para que o resultado final não seja influenciado. Provavelmente a tabela foi criada antes do fim do Brasileiro 2022.
