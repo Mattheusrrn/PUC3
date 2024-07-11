@@ -2,13 +2,15 @@
 ![image](https://a4.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F85.png))
 
 # 1.0 Objetivo
-O objetivo deste trabalho é analisar fatores e variáveis que podem influenciar o desempenho das equipes no Brasileirão. Através de análises, diversas perguntas pertinentes ao desempenho dos clubes serão melhor entendidas:
+O objetivo deste trabalho é analisar fatores e variáveis que podem influenciar o desempenho das equipes no Brasileirão. Através de análises no DataBricks e usando PySpark e SQL, diversas perguntas pertinentes ao desempenho dos clubes serão melhor entendidas:
 
 Desempenho Fora de Casa: O desempenho do clube jogando fora de casa pode ser um determinante para a conquista do campeonato?
 
 Desempenho em Casa: O desempenho dentro de casa tem um impacto significativo na conquista do campeonato?
 
 Desempenho de Campeões Anteriores: Os campeões de temporadas anteriores conseguem manter o alto nível de desempenho no ano seguinte, ou geralmente apresentam uma queda significativa?
+
+Desempenho no 2 turno: Os campeões costumam desempenhar bem no 2 turno da competição?
 
 Impacto do Fator Estadual: O desempenho das equipes é influenciado pelo estado de origem? Times de determinados estados têm vantagens ou desvantagens específicas?
 
@@ -37,10 +39,15 @@ Como é apenas 1 arquivo, então não houve necessidade de uma descrição compl
 
 # 4.0 Carga
 O upload feito diretamente no Databricks através do DBFS.
+
 ![image](253181e3-70f7-469a-8e87-2f8334d9106d.jfif)
+
 Tabela raw carregada no DataBricks usando pyspark e usando Valores NA que estão nas colunas de gols como 0 para que o resultado final não seja influenciado. Provavelmente a tabela foi criada antes do fim do Brasileiro 2022.
+
 ![image](carga.PNG)
+
 Foi necessário a criação de uma tabela temporária no DataBricks mostrando a classificação final do campeonato por ano para que algumas análises fossem possíveis.
+
 ![image](tabelacla.PNG)
 
 # 5.0 Análises
@@ -99,3 +106,13 @@ Existem exceções onde o clube não foi o melhor no segundo turno, mas ainda as
 
 
 ![image](class_2turno.PNG)
+
+
+# 6.0 Autoavaliação
+
+
+Reconheço que minha abordagem poderia ter sido mais robusta e orientada para os negócios. A princípio, meu objetivo era analisar datasets de negócios, mas acabei direcionando minha análise para o campo do entretenimento, especificamente focando em um dataset sobre o Brasileirão.
+
+Ao refletir sobre a escolha desse dataset, percebo que a profundidade da análise fnão ficou tão profunda do que poderia ter sido alcançado até porque esse não era o objetivo principal desse trabalho. Limitei-me a aspectos mais gerais e populares, por exemplo, a disputa pelo rebaixamento no campeonato é um tema crucial que poderia ter sido abordado para oferecer uma visão mais completa e detalhada da competição.
+
+Esta reflexão pode servir como um aprendizado para futuras análises, incentivando uma abordagem mais criteriosa e detalhada na seleção e exploração dos datasets.
