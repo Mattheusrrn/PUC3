@@ -42,11 +42,12 @@ O upload feito diretamente no Databricks através do DBFS.
 
 ![image](253181e3-70f7-469a-8e87-2f8334d9106d.jfif)
 
-Tabela raw carregada no DataBricks usando pyspark e usando Valores NA que estão nas colunas de gols como 0 para que o resultado final não seja influenciado. Provavelmente a tabela foi criada antes do fim do Brasileiro 2022.
+Tabela raw carregada no DataBricks usando pyspark e usando Valores NA que estão nas colunas de gols como 0 para que o resultado final não seja influenciado.
+Provavelmente a tabela foi criada antes do fim do Brasileiro 2022.
 
 ![image](carga.PNG)
 
-Foi necessário a criação de uma tabela temporária no DataBricks mostrando a classificação final do campeonato por ano para que algumas análises fossem possíveis.
+Foi necessária a criação de uma tabela temporária no DataBricks mostrando a classificação final do campeonato por ano para que algumas análises fossem possíveis.
 
 ![image](tabelacla.PNG)
 
@@ -95,8 +96,8 @@ No entanto, não se mostrou uma variável tão importante como a campanha como v
 
 
 Vemos que apenas 20% das vezes, que foi possível avaliar o desempenho dos campeões no ano seguinte,  o campeão repetiu o feito no ano seguinte. 
-Em média, os times campeões do Brasileirão tendem a ter uma queda no desempenho no ano seguinte, caindo cerca de 5 posições na tabela.Há exceções notáveis, como o Cruzeiro em 2014 e o Flamengo em 2020, que mantiveram uma alta classificação (1º e 2º lugares, respectivamente). 
-Alguns campeões, como o Fluminense em 2013 (16º lugar) e o Corinthians em 2018 (13º lugar), tiveram uma queda mais acentuada no desempenho no ano seguinte.Embora alguns campeões consigam manter um alto desempenho, em média, há uma tendência de queda significativa na classificação no ano seguinte ao título
+Em média, os times campeões do Brasileirão tendem a ter uma queda no desempenho no ano seguinte, caindo cerca de 5 posições na tabela.Há exceções notáveis, como o Cruzeiro em 2014 e o Flamengo em 2020, que mantiveram uma alta classificação. 
+Alguns campeões, como o Fluminense em 2013 e o Corinthians em 2018, tiveram uma queda maiora no desempenho no ano seguinte.Embora alguns campeões consigam manter um alto desempenho, em média, há uma tendência de queda significativa na classificação no ano seguinte ao título.
 
 
 ![image](class_anoaseguinte.PNG)
@@ -104,8 +105,8 @@ Alguns campeões, como o Fluminense em 2013 (16º lugar) e o Corinthians em 2018
 
 5.6 Desempenho no 2 turno é determinante para a conquista de título?
 
-Muitos campeões (como o Cruzeiro em 2013, Corinthians em 2015, Palmeiras em 2016, 2018 e 2022, Flamengo em 2019 e 2021, e Atlético-MG em 2021) mantiveram uma alta posição tanto na classificação geral quanto na classificação do segundo turno.Algumas exceções incluem o Fluminense em 2012 e o Flamengo em 2020, que não terminaram o segundo turno como líderes, mas ainda assim conquistaram o título geral. 
-A maior exceção é o Corinthians em 2017, que teve um desempenho significativamente pior no segundo turno (11º lugar) mas ainda conquistou o título. Um bom desempenho no segundo turno geralmente contribui significativamente para a conquista do título, mas não é um fator absolutamente determinante. 
+Muitos campeões mantiveram uma alta posição tanto na classificação geral quanto na classificação do segundo turno. Algumas exceções incluem o Fluminense em 2012 e o Flamengo em 2020, que não terminaram o segundo turno como líderes, mas ainda assim conquistaram o título geral. 
+A maior exceção é o Corinthians em 2017, que teve um desempenho significativamente pior no segundo turno mas ainda conquistou o título. Um bom desempenho no segundo turno geralmente contribui significativamente para a conquista do título, mas não é um fator absolutamente determinante. 
 Existem exceções onde o clube não foi o melhor no segundo turno, mas ainda assim conseguiu ganhar o campeonato. 
 
 
@@ -117,6 +118,6 @@ Existem exceções onde o clube não foi o melhor no segundo turno, mas ainda as
 
 Reconheço que minha abordagem poderia ter sido mais robusta e orientada para os negócios. A princípio, meu objetivo era analisar datasets de negócios, mas acabei direcionando minha análise para o campo do entretenimento, especificamente focando em um dataset sobre o Brasileirão.
 
-Ao refletir sobre a escolha desse dataset, percebo que a profundidade da análise fnão ficou tão profunda do que poderia ter sido alcançado até porque esse não era o objetivo principal desse trabalho. Limitei-me a aspectos mais gerais e populares, por exemplo, a disputa pelo rebaixamento no campeonato é um tema crucial que poderia ter sido abordado para oferecer uma visão mais completa e detalhada da competição.
+Ao refletir sobre a escolha desse dataset, percebo que a análise não ficou tão profunda do que poderia ter sido alcançado até porque esse não era o objetivo principal desse trabalho. Limitei-me a aspectos mais gerais, por exemplo, a disputa pelo rebaixamento no campeonato é um tema crucial que poderia ter sido abordado para oferecer uma visão mais completa e detalhada da competição.
 
 Esta reflexão pode servir como um aprendizado para futuras análises, incentivando uma abordagem mais criteriosa e detalhada na seleção e exploração dos datasets.
