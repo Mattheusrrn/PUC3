@@ -14,7 +14,7 @@ Desempenho no 2 turno: Os campeões costumam desempenhar bem no 2 turno da compe
 
 Impacto do Fator Estadual: O desempenho das equipes é influenciado pelo estado de origem? Times de determinados estados têm vantagens ou desvantagens específicas?
 
-Este estudo pretende oferecer uma visão abrangente e detalhada sobre como esses fatores interagem e influenciam os resultados das equipes no Brasileirão, utilizando dados estatísticos para apoiar as conclusões
+Este estudo discute sobre como esses fatores interagem e influenciam os resultados das equipes no Brasileirão.
 
 
 # 2.0 Coleta
