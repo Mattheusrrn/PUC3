@@ -116,7 +116,7 @@ Existem exceções onde o clube não foi o melhor no segundo turno, mas ainda as
 # 6.0 Autoavaliação
 
 
-Reconheço que minha abordagem poderia ter sido mais robusta e orientada para os negócios. A princípio, meu objetivo era analisar datasets de negócios, mas acabei direcionando minha análise para o campo do entretenimento, especificamente focando em um dataset sobre o Brasileirão.
+Reconheço que minha abordagem poderia ter sido mais orientada para os negócios. A princípio, meu objetivo era analisar datasets de negócios, mas acabei direcionando minha análise para o campo do entretenimento, especificamente focando em um dataset sobre o Brasileirão.
 
 Ao refletir sobre a escolha desse dataset, percebo que a análise não ficou tão profunda do que poderia ter sido alcançado até porque esse não era o objetivo principal desse trabalho. Limitei-me a aspectos mais gerais, por exemplo, a disputa pelo rebaixamento no campeonato é um tema crucial que poderia ter sido abordado para oferecer uma visão mais completa e detalhada da competição.
 
