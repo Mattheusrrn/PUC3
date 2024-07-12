@@ -19,7 +19,8 @@ Este estudo discute sobre como esses fatores interagem e influenciam os resultad
 
 # 2.0 Coleta
 
-A coleta foi feita no site da kaggle: https://www.kaggle.com/datasets/ricardomattos05/jogos-do-campeonato-brasileiro
+
+Deu-se início a etapa de coleta de dados, realizando o download dos dados para a máquina local, a partir do site Kaggle: https://www.kaggle.com/datasets/ricardomattos05/jogos-do-campeonato-brasileiro
 
 
 # 3.0 Modelagem
@@ -38,16 +39,18 @@ A coleta foi feita no site da kaggle: https://www.kaggle.com/datasets/ricardomat
 Como é apenas 1 arquivo, então não houve necessidade de uma descrição complexa da modelagem.
 
 # 4.0 Carga
-O upload feito diretamente no Databricks através do DBFS.
+
+O upload feito diretamente no Databricks através do DBFS, onde se criou o caminho para que os dados fossem disponibilizados.
 
 ![image](253181e3-70f7-469a-8e87-2f8334d9106d.jfif)
 
-Tabela raw carregada no DataBricks usando pyspark e usando Valores NA que estão nas colunas de gols como 0 para que o resultado final não seja influenciado.
+A partir disso, a Tabela raw foi carregada no notebook usando Pyspark. Analisei que havia alguns valores NA nas colunas de gols então decidi colocá-los como 0 para que o resultado final não seja influenciado.
 Provavelmente a tabela foi criada antes do fim do Brasileiro 2022.
 
 ![image](carga.PNG)
 
-Foi necessária a criação de uma tabela temporária no DataBricks mostrando a classificação final do campeonato por ano para que algumas análises fossem possíveis.
+Para que outras análises fossem feitas, foi necessária a criação de uma tabela temporária no DataBricks mostrando a classificação final do campeonato por ano. 
+Dessa forma, os objetivos ficaram mais fáceis de serem alcançados.
 
 ![image](tabelacla.PNG)
 
